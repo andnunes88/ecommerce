@@ -62,7 +62,7 @@ class User extends Model{
 
     }
 
-    public static function varifyLogin($inadmin = true){
+    public static function verifyLogin($inadmin = true){
 
         if(!User::checkLogin($inadmin)){
 
